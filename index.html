@@ -1,32 +1,29 @@
 <!DOCTYPE html>
-<html>
-	<head>
-        <title>Hoang Le</title>
-        <!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">On PhD</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hoang Le</h1>
-				<p>I'm a soon-to-be PhD student. I create this website to showcase my work and write about my hopefully-grad-school-life. 
-                </p> </br>
-                <p><a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:lebahoang010296@gmail.com@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hoangle96">github.com/hoangle96</a></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">On PhD</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:lebahoang010296@gmail.com">Email</a></li>
+	        		<li><a href="https://github.com/hoangle96">GitHub</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
