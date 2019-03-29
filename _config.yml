@@ -1,2 +1,3 @@
 name: Hoang Le
 markdown: kramdown
+permalink: /blog/:title
