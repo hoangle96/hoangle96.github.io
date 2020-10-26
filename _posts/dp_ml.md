@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Differential Privacy
+title: 2020-10-24-Differential-Privacy
 date: 2020-10-24
 category: PhD
 tags: PhD Research
