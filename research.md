@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Research
-permalink: research
+# permalink: /
 ---
 
 My research interest lies in the intersection of machine learning and privacy. All of the publications are in a reversed-chronological order
